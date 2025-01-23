@@ -11,9 +11,13 @@ body {
 .container {
     text-align: center;
     background-color: #468C98;
-    padding: 100px;
+    padding: 80px;
     border-radius: 20px;
     font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;;
 
 }
 
@@ -44,32 +48,7 @@ button:hover {
 }
 
 
-#characterInfo {
-    margin-top: 20px;
-}
 
-.character-card {
-    display: inline-block;
-    text-align: center;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #240000;
-    width: 300px;
-
-}
-
-
-.character-card img {
-    width: 100%;
-    border-radius: 5px;
-
-}
-
-.character-card p {
-    color:#777;
-}
 
 
 
