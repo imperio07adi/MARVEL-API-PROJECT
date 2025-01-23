@@ -26,9 +26,9 @@ function displayCharacterInfo(data) {
     if (data && data.data && data.data.results.length > 0) {
         const character = data.data.results[0];
         characterInfoDiv.innerHTML = `
-            <h2>${character.name}</h2>
+            <h3>${character.name}</h3>
             <p>${character.description || 'No description available.'}</p>
-            <img src="${character.thumbnail.path}.${character.thumbnail.extension}" alt="${character.name}">
+            <img src="${character.thumbnail.path}.${character.thumbnail.extension}" alt="${character.name}" height="20%" width="20%">
         `;
     } else {
         characterInfoDiv.innerHTML = '<p>No character found.</p>';
