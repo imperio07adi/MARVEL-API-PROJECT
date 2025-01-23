@@ -1,43 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-color: #984447;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+    background-image:url("https://wallpapercat.com/w/full/e/c/6/950708-3840x2160-desktop-4k-mcu-background-photo.jpg");
 }
 
 .container {
     text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #468C98;
+    padding: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+
 }
 
 input {
-    padding: 10px;
-    font-size: 16px;
-    width: 300px;
-    margin-right: 10px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
+
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #e62429;
-    column-rule-color: white;
+    margin:50px;
+    padding: 10px 40px;
+    font-size: 30px;
+    background-color: #476C9B;
+    cursor: pointer;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 
 }
 
 button:hover {
-    background-color: #b71c1c;
+    background-color: yellow;
 
 }
 
@@ -48,12 +50,12 @@ button:hover {
 
 .character-card {
     display: inline-block;
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     border: 1px solid #ddd;
     padding: 20px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+    border-radius: 5px;
+    background-color: #240000;
     width: 300px;
 
 }
@@ -61,12 +63,13 @@ button:hover {
 
 .character-card img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
 .character-card p {
     color:#777;
 }
+
 
 
