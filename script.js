@@ -10,7 +10,7 @@ function generateMD5Hash(ts, privateKey, publicKey) {
 function fetchCharacterData(characterName) {
     const ts = new Date().getTime();  
     const hash = generateMD5Hash(ts, privateKey, publicKey);  
-    const url = `http://gateway.marvel.com/v1/public/characters?name=${characterName}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
+    const url = `https://gateway.marvel.com/v1/public/characters?name=${characterName}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
 
     fetch(url)
         .then(response => response.json())
