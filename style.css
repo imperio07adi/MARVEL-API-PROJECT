@@ -13,6 +13,7 @@ html, body {
     padding: 0;
     background-image:url("https://wallpapercat.com/w/full/e/c/6/950708-3840x2160-desktop-4k-mcu-background-photo.jpg");
 }
+
 header{
     color: white;
     background-color: #091d38;
@@ -54,16 +55,19 @@ header{
     .container{
         width: 90%;
     }
+    html, body{
+        font-family: 'Courier New', Courier, monospace;
+    }
     input {
         width: 80%;
-
+        font-family: 'Courier New', Courier, monospace;
     }
     h1 {
         font-size: 20px;
-        
     }
     button {
         width: 50%;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
 
@@ -74,8 +78,12 @@ header{
         margin-left: 10px;
         
     }
+    html, body{
+        font-family:Arial, Helvetica, sans-serif;
+    }
     input{
         width: 100%;
+        font-family:Arial, Helvetica, sans-serif;
     }
     h1 {
         font-size: 20px;
@@ -85,6 +93,7 @@ header{
     }
     button{
         width: 80%;
+        font-family:Arial, Helvetica, sans-serif;
     }
 }
 
