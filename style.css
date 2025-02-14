@@ -1,14 +1,26 @@
-body {
-    font-family:cursive;
+*{
+    padding: 0;
     margin: 0;
+}
+
+html, body {
+    font-family:cursive;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
     background-image:url("https://wallpapercat.com/w/full/e/c/6/950708-3840x2160-desktop-4k-mcu-background-photo.jpg");
 }
 header{
     color: white;
     background-color: #091d38;
     text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding:10px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 0;
     box-shadow: 50px 40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -17,19 +29,19 @@ header{
     height: 25px;
     width: 25px;
     border-radius: 30px;
-    border:2px  solid white;
+    border:2px  solid yellow;
 }
 .facebook{
     height: 25px;
     width: 25px;
     border-radius: 30px;
-    border:2px  solid white;
+    border:2px  solid yellow;
 }
 .github{
     height: 25px;
     width: 25px;
     border-radius: 30px;
-    border:2px  solid white;
+    border:2px  solid yellow;
 }
 .side{
     display: inline-flex;
@@ -38,31 +50,79 @@ header{
     padding: 5px;
 }
 
-.container {
-    text-align: center;
-    background-color: #2b8d9e;
-    padding: 80px;
-    border-radius: 20px;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+@media (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    input {
+        width: 80%;
+
+    }
+    h1 {
+        font-size: 20px;
+        
+    }
+    button {
+        width: 50%;
+    }
+}
+
+@media (max-width : 480px){
+    .container {
+        width: 95%;
+        padding: 15%;
+        margin-left: 10px;
+        
+    }
+    input{
+        width: 100%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    button{
+        width: 80%;
+    }
+}
+
+.container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-left: 40vh;
-    margin-right: 40vh;
-    font-size: 15px;
+    justify-content: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 90%;
+    padding: 40px 20px;
+    background-color: #2b8d9e;
+    max-width: 500px;
+    border-radius: 20px;
     border:solid 10px whitesmoke;
+    text-align: center;
     box-shadow: 50px 40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 footer{
     color: white;
-    text-align: center;
+    text-align:center;
     background-color: black;
     padding: 5px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
     box-shadow: -50px -40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+a{
+    text-decoration: none;
+    color: yellow;
 }
 
 input {
@@ -98,9 +158,3 @@ button:hover {
     background-color: orange;
     color: black;
 }
-
-
-
-
-
-
