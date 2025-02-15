@@ -52,7 +52,7 @@ header{
 @media (max-width: 786px){
     .container{
         height: auto;
-        font-size: 15px;
+        font-size: 11px;
         padding: 5px 0px 2px 0px;
         margin:0;
         transform: translate(-50% , -30%);
@@ -122,6 +122,7 @@ footer{
     text-align:center;
     background-color: black;
     padding-top: 5px;
+    margin-top:50px;
     display: flex;
     justify-content:center;
     flex-direction: column;
