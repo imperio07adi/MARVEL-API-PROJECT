@@ -8,8 +8,8 @@
 </head>
 <body>
     <header>
-        <h1>MARVEL DICTIONARY. com</h1>
-        <p>Your very own Simple discription of your favourite superhero , so let's dive in ...</p>
+        <h1 id="head">MARVEL DICTIONARY. com</h1>
+        <p id="para">Your very own Simple discription of your favourite superhero , so let's dive in ...</p>
         <div class="side">
             <a href="https://www.facebook.com/"><img class="facebook" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6M0SBKK35FgnV0k-yIIqOn0MqdfIxmEAo7Q&s"></a>
             <a href="https://x.com/home?lang=en"><img class="twitter" src="data:image/png;base64,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"></a>
@@ -25,8 +25,8 @@
         <div id="characterInfo"></div>
     </div>
     <footer>
-        <p>This site is managed by @ <a href="https://www.linkedin.com/in/aditya-k-239b77291/" >aditya kokashe</a></p>
-        <p>lets connect :<button><a href="https://www.linkedin.com/in/aditya-k-239b77291/">Connect</a></button></p>
+        <p id="para">This site is managed by @ <a href="https://www.linkedin.com/in/aditya-k-239b77291/" >aditya kokashe</a></p>
+        <p id="para2">Lets Connect :<button><a href="https://www.linkedin.com/in/aditya-k-239b77291/">Connect</a></button></p>
         
     </footer>
 
