@@ -5,7 +5,7 @@
 
 html, body {
     font-family:Georgia, serif;
-    height: 113vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,12 +48,13 @@ header{
     padding: 5px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 786px){
     .container{
         height: auto;
         font-size: 15px;
         padding: 5px 0px 2px 0px;
         transform: translate(-50% , -30%);
+        border:solid 2px whitesmoke;
     }
     header{
         height: auto;
