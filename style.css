@@ -4,7 +4,7 @@
 }
 
 html, body {
-    font-family: sans-serif;
+    font-family: Georgia, serif;
     height: 100%;
     margin: 0;
     display: flex;
@@ -56,11 +56,11 @@ header{
         width: 90%;
     }
     html, body{
-        font-family: sans-serif;
+        font-family: Georgia, serif;
     }
     input {
         /* width: 80%; */
-        font-family: sans-serif;
+        font-family: Georgia, serif;
     }
     header , footer {
         font-size: 25px;
@@ -71,7 +71,7 @@ header{
     }
     button {
         /* width: 50%; */
-        font-family: sans-serif;
+        font-family: Georgia, serif;
     }
     a{
         height: 40px;
@@ -88,11 +88,11 @@ header{
         
     /* } */
     html, body{
-        font-family:sans-serif;
+        font-family:Georgia, serif;
     }
     input{
         width: 100%;
-        font-family: sans-serif;
+        font-family: Georgia, serif;
     }
     /* h1 {
         font-size: 10px;
@@ -102,7 +102,7 @@ header{
     } */
     button{
         /* width: 80%; */
-        font-family: sans-serif;
+        font-family: Georgia, serif;
     }
 }
 
@@ -147,7 +147,7 @@ input {
     text-align: center;
     border: none;
     font-size: 15px;
-    font-family:  sans-serif;
+    font-family:  Georgia, serif;
 }
 
 #characterName{
@@ -168,7 +168,7 @@ button {
     box-shadow: #367890;
     border: none;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: Georgia, serif;
 
 }
 
