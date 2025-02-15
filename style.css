@@ -4,7 +4,7 @@
 }
 
 html, body {
-    font-family:cursive;
+    font-family: sans-serif;
     height: 100%;
     margin: 0;
     display: flex;
@@ -147,7 +147,7 @@ input {
     text-align: center;
     border: none;
     font-size: 15px;
-    font-family: cursive;
+    font-family:  sans-serif;
 }
 
 #characterName{
