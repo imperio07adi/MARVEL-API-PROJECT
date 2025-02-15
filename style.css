@@ -128,7 +128,7 @@ header{
     transform: translate(-50% , -40%);
     width: 80%;
     height: auto;
-    padding: 40px 20px;
+    padding: 40px 20px 20px 20px;
     background-color: #2b8d9e;
     max-width: 500px;
     border-radius: 20px;
