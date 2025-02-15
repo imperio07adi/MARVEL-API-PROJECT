@@ -45,14 +45,14 @@ header{
 .side{
     display: inline-flex;
     justify-content:right;
+    flex-direction: row;
     gap:10px;
-    padding: 5px;
+    padding-top: 15px;
 }
 @media (min-width: 786px){
     .container{
         height: auto;
         font-size: 13px;
-        padding: 5px 0px 2px 0px;
         margin:0;
         transform: translate(-50% , -30%);
         border:none;
@@ -63,6 +63,7 @@ header{
         font-size: 18px;
     }
     #para2{
+        padding:0 5px 0 5px;
         color: rgb(218, 166, 103);
         font-size: 15px;
     }
@@ -99,19 +100,19 @@ header{
         height: 25px;
         width: 25px;
         border-radius: 30px;
-        border:2px  solid yellow;
+        border:2px  solid rgb(13, 225, 101);
     }
     .facebook{
         height: 25px;
         width:25px;
         border-radius: 30px;
-        border:2px  solid yellow;
+        border:2px  solid rgb(13, 225, 101);
     }
     .github{
         height: 25px;
         width: 25px;
         border-radius: 30px;
-        border:2px  solid yellow;
+        border:2px  solid rgb(13, 225, 101);
     }
 } 
 
