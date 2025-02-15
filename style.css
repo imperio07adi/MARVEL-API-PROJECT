@@ -4,8 +4,8 @@
 }
 
 html, body {
-    font-family:Georgia, serif;
-    height: 100vh;
+    font-family:cursive;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,16 +64,16 @@ header{
         flex-wrap: wrap;
     }
     #head{
-        font-size: 18px;
+        font-size: 14px;
     }
     #para{
         margin: 0px;
         color: blanchedalmond;
-        font-size: 14px;
+        font-size: 11px;
     }
     #para2{
         color: blanchedalmond;
-        font-size: 10px;
+        font-size: 8px;
     }
     .twitter{
         height: 18px;
@@ -157,7 +157,7 @@ button {
     box-shadow: #367890;
     border: none;
     border-radius: 10px;
-    font-family: Georgia, serif;
+    font-family: cursive;
 
 }
 
