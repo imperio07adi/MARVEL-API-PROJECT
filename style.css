@@ -5,7 +5,7 @@
 
 html, body {
     font-family:Georgia, serif;
-    height: 98vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,7 +17,7 @@ header{
     background-color: #091d38;
     text-align: center;
     padding:10px 5px 5px 5px;
-    margin-right:10px;
+    margin:0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -64,12 +64,12 @@ header{
         flex-wrap: wrap;
     }
     #head{
-        font-size: 25px;
+        font-size: 18px;
     }
     #para{
-        margin: 2px;
+        margin: 0px;
         color: blanchedalmond;
-        font-size: 15px;
+        font-size: 14px;
     }
     #para2{
         color: blanchedalmond;
