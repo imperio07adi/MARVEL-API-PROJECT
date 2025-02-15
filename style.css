@@ -59,11 +59,11 @@ header{
     }
     #para{
         margin: 0px;
-        color: blanchedalmond;
+        color:rgb(218, 166, 103);
         font-size: 18px;
     }
     #para2{
-        color: blanchedalmond;
+        color: rgb(218, 166, 103);
         font-size: 15px;
     }
 }
@@ -87,11 +87,11 @@ header{
     }
     #para{
         margin: 0px;
-        color: blanchedalmond;
+        color: rgb(218, 166, 103);
         font-size: 11px;
     }
     #para2{
-        color: blanchedalmond;
+        color: rgb(218, 166, 103);
         font-size: 8px;
     }
     .twitter{
