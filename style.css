@@ -99,6 +99,11 @@ input {
         font-size: 35px;
         font-weight: 900;
     }
+    input {
+        text-align: center;
+        width: 100px;
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+    }
     .container {
         margin: 0;
         border: solid 2px #481504;
