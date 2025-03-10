@@ -1,192 +1,145 @@
-*{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Moon+Dance&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     margin: 0;
+    padding: 0;
 }
 
-html, body {
-    font-family:Georgia, serif;
-    height: 100vh;
+html,
+body {
+    height: 100%;
+    margin: 0;
     display: flex;
+    background-color: #fcf1db;
     flex-direction: column;
-    justify-content: space-between;
-    background-image:url("https://wallpapercat.com/w/full/e/c/6/950708-3840x2160-desktop-4k-mcu-background-photo.jpg");
-}
-
-header{
-    color: white;
-    background-color: #091d38;
     text-align: center;
-    padding:10px 5px 5px 5px;
-    margin:0;
+    font-family: poppins;
+
+}
+
+h1 {
+    font-family: Moon Dance;
+    font-size: 50px;
+}
+
+.header {
+    background-color: #fcf1db;
+    text-align: center;
+    padding: 20px;
+    font-family: poppins;
+}
+
+.main {
+    padding: 20px;
+    flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    box-shadow: 50px 40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-.twitter{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
-}
-.facebook{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
-}
-.github{
-    height: 25px;
-    width: 25px;
-    border-radius: 30px;
-    border:2px  solid yellow;
-}
-.side{
-    display: inline-flex;
-    justify-content:right;
-    flex-direction: row;
-    gap:10px;
-    padding-top: 15px;
-}
-@media (min-width: 786px){
-    .container{
-        height: auto;
-        font-size: 13px;
-        margin:0;
-        transform: translate(-50% , -30%);
-        border:none;
-    }
-    #para{
-        margin: 0px;
-        color:rgb(218, 166, 103);
-        font-size: 18px;
-    }
-    #para2{
-        padding:0 5px 0 5px;
-        color: rgb(218, 166, 103);
-        font-size: 15px;
-    }
-}
-@media (max-width: 786px){
-    .container{
-        height: auto;
-        font-size: 11px;
-        padding: 5px 0px 2px 0px;
-        margin:0;
-        transform: translate(-50% , -30%);
-        border:none;
-    }
-    header{
-        height: auto;
-        margin-top: 2px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #head{
-        font-size: 20px;
-        padding-bottom: 12px;
-    }
-    #para{
-        margin: 0px;
-        color: rgb(218, 166, 103);
-        font-size: 16px;
-    }
-    #para2{
-        color: rgb(218, 166, 103);
-        font-size: 13px;
-    }
-    .twitter{
-        height: 25px;
-        width: 25px;
-        border-radius: 30px;
-        border:2px  solid rgb(13, 225, 101);
-    }
-    .facebook{
-        height: 25px;
-        width:25px;
-        border-radius: 30px;
-        border:2px  solid rgb(13, 225, 101);
-    }
-    .github{
-        height: 25px;
-        width: 25px;
-        border-radius: 30px;
-        border:2px  solid rgb(13, 225, 101);
-    }
-} 
-
-
-.container{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-    position:absolute;
-    top: 50%;
-    margin-bottom: 10px;
-    left: 50%;
-    transform: translate(-50% , -40%);
-    width: 80%;
+    background-color: #fcf1db;
+}
+
+img {
+    width: 100%;
     height: auto;
-    padding: 40px 20px 20px 20px;
-    background-color: #2b8d9e;
-    max-width: 500px;
-    border-radius: 20px;
-    border:solid 10px whitesmoke;
-    text-align: center;
-    box-shadow: 50px 40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-footer{
-    color: white;
-    text-align:center;
-    background-color: black;
-    padding-top: 5px;
-    margin-top:50px;
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: -50px -40px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.container p {
+    font-size: 30px;
 }
 
-a{
-    text-decoration: none;
-    color: yellow;
+.characterInfo {
+    font-size: 40px;
 }
 
 input {
     text-align: center;
-    border: none;
-    font-size: 15px;
-    font-family: Georgia, serif;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
 }
 
-#characterName{
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
-    border:solid #091d38;
-}
-
-button {
-    margin:15px;
-    padding: 10px 40px;
-    font-size: 15px;
-    background-color: #091d38;
-    cursor: pointer;
-    color: white;
-    box-shadow: #367890;
-    border: none;
-    border-radius: 10px;
-    font-family: Georgia, serif;
-
-}
-
-button:hover {
-    background-color: orange;
+.container {
+    margin: 0;
+    border: solid 2px #481504;
     color: black;
+    background-color: #B5E2FA;
+    border-radius: 25px;
+    width: 450px;
+    font-weight: 500;
+    padding: 45px 40px 45px 40px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,1);
+}
+
+.side .facebook,
+.twitter,
+.github {
+    height: 20px;
+    width: 20px;
+    border-radius: 22px;
+    border: solid 5px #ecbfb0;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* flex-direction: column; */
+    /* padding-right: 99px; */
+    justify-content: center;
+}
+
+.characterName {
+    padding: 2% 25%;
+    border-radius: 5px;
+    border: none;
+}
+@media (max-width:768px){
+    h1 {
+        font-family: Moon Dance;
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .container {
+        margin: 0;
+        border: solid 2px #481504;
+        color: black;
+        background-color: #B5E2FA;
+        border-radius: 25px;
+        width: 450px;
+        font-weight: 500;
+        padding: 45px 40px 45px 40px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,1);
+    }
+    .container p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    header #para{
+        display: none;
+    }
+}
+
+.searchButton {
+    padding: 5px 25px;
+    margin-top: 10px;
+    color: aliceblue;
+    margin-bottom: 0;
+    background-color: #020805b3;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 19px rgba(0,0,0,0.5);
+}
+
+.searchButton a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin-bottom: 20px;
 }
