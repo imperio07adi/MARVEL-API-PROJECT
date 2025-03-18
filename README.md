@@ -38,9 +38,13 @@ Explore the Marvel Universe with this web app! Search for your favorite heroes a
 🦸‍♂️ Try Searching for These Characters
 
 Spider-Man 🕷️
+
 Iron Man 🤖
+
 Thor ⚡
+
 Hulk 💪
+
 Deadpool 😜
 
 
