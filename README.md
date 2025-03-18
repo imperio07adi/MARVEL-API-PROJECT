@@ -33,24 +33,6 @@ Explore the Marvel Universe with this web app! Search for your favorite heroes a
 1. Clone the repo:  
    ```sh
    git clone https://github.com/yourusername/marvel-api-project.git
-Navigate to the project folder:
-
-sh
-Copy
-Edit
-cd marvel-api-project
-Open index.html in your browser.
-
-🔑 API Key Setup
-
-To use the Marvel API, you need an API key:
-
-Sign up at Marvel Developer Portal.
-Get your public and private API keys.
-Replace the placeholder key in the JavaScript file:
-js
-Copy
-Edit
 
 
 🦸‍♂️ Try Searching for These Characters
